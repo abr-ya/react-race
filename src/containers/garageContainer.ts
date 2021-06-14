@@ -1,6 +1,6 @@
 import {connect} from 'react-redux';
 import Main from '../pages/Main';
-import {getCars} from '../actions/carActions';
+import {getCars, getCarStatus} from '../actions/carActions';
 
 const mapStateToProps = (state: any) => ({
   garage: state.garage,
@@ -8,6 +8,7 @@ const mapStateToProps = (state: any) => ({
 
 const mapDispatchToProps = {
   getCars,
+  getCarStatus,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Main);
