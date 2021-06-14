@@ -4,7 +4,7 @@ import {
 } from 'react-router-dom';
 import Nav from '../Nav/Nav';
 import About from '../../pages/About';
-import Main from '../../pages/Main';
+import Main from '../../containers/garageContainer';
 import Alert from '../Alert/Alert';
 
 export interface ILink {

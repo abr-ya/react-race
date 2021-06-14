@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux';
 import alertReducer from './alertReducer';
-import githubReducer from './githubReducer';
+import carReducer from './carReducer';
 
 export default combineReducers({
-    alert: alertReducer,
-    github: githubReducer,
-})
+  alert: alertReducer,
+  garage: carReducer,
+});
